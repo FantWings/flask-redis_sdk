@@ -5,12 +5,12 @@
 ## 快速上手
 
 - 下载源码：`git@github.com:FantWings/flask-redis_sdk.git`
-- 安装依赖 `pip install -r requirements.txt`
-- 运行后端 `flask run -h 0.0.0.0`
+- 安装依赖： `pip install -r requirements.txt`
+- 运行后端： `flask run -h 0.0.0.0`
 - 快速测试：
-  - Redis 读 http://localhost:5000/read?key=test
-  - Redis 写 http://localhost:5000/write?key=test&value=xiaozhupeiqi&expire=300
-  - Redis 删 http://localhost:5000/delete?key=test
+  - Redis 读 ：http://localhost:5000/read?key=test
+  - Redis 写 ：http://localhost:5000/write?key=test&value=xiaozhupeiqi&expire=300
+  - Redis 删 ：http://localhost:5000/delete?key=test
 
 ## 配置文件
 
