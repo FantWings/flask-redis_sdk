@@ -8,9 +8,9 @@
 - 安装依赖 `pip install -r requirements.txt`
 - 运行后端 `flask run -h 0.0.0.0`
 - 快速测试：
-  - Redis 读 http://localhost:5000/read?key=键
-  - Redis 写 http://localhost:5000/write?key=键&value=值&expire=过期时间（秒）
-  - Redis 删 http://localhost:5000/delete?key=键
+  - Redis 读 http://localhost:5000/read?key=test
+  - Redis 写 http://localhost:5000/write?key=test&value=xiaozhupeiqi&expire=300
+  - Redis 删 http://localhost:5000/delete?key=test
 
 ## 配置文件
 
